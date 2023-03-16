@@ -1,0 +1,18 @@
+.btn1, .btn2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    user-select: none;
+    border-radius: 10%;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn1 {
+    background-color: rgb(103, 103, 218);
+}
+
+.btn2 {
+    background-color: rgb(179, 79, 79);
+}
