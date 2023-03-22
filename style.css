@@ -1,4 +1,4 @@
-.btn1, .btn2 {
+.buttons__create, .buttons__delete {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aquamarine;
     height: 30px;
@@ -9,10 +9,34 @@
     margin-top: 20px;
     text-align: center;
 }
-.btn1 {
+.buttons__create {
     background-color: rgb(103, 103, 218);
 }
 
-.btn2 {
+.buttons__delete {
     background-color: rgb(179, 79, 79);
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lists__left {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.lists__left-list>li {
+    height: 30px;
+    width: 30px;
+    background-color: azure;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lists__left-list>button {
+    height: 30px;
+    width: 70px;
+    background-color: aqua;
 }
