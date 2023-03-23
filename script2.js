@@ -14,7 +14,7 @@ btnAdd.onclick = function () {
   list.append(newLi);
   newLi.append(newBtn);
   newBtn.onclick = function (e) {
-    let target = e.target;
+    let target = e.target.parentNode;
     target.remove();
   };
 };
